@@ -1,6 +1,7 @@
 // import inquirer and file system module
-const fs = require('fs')
 const inquirer = require('inquirer')
+const fs = require('fs')
+
 
 
 // import classes from ./lib.shapes
