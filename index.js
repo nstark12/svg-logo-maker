@@ -1,10 +1,10 @@
 // import inquirer and file system module
-import fs from 'fs'
-import inquirer from 'inquirer'
+const fs = require('fs')
+const inquirer = require('inquirer')
 
 
-// destructure and import classes from ./lib.shapes
-import { Circle, Square, Triangle } from './lib/shapes.js'
+// import classes from ./lib.shapes
+const { Circle, Square, Triangle } = require('./lib/shapes.js')
 
 
 // questions for user input
