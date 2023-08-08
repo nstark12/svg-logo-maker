@@ -21,7 +21,7 @@ describe('Square Class', () => {
         let color = ('pink')
         shape.setColor(color)
 
-        expect(shape.render()).toBe(`<rect x="50" width="160" height="160" fill="${color}" />`)
+        expect(shape.render()).toBe(`<rect x="73" y="40" width="160" height="160" fill="${color}" />`)
     })
 })
 
